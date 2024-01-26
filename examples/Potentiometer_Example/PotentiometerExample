@@ -1,0 +1,17 @@
+#include <Arduino.h>
+#include <Wire.h>
+#include <SPI.h>
+
+//Potentiometer library
+#include "Potentiometer.h"
+
+void setup() 
+{
+    Serial.begin(115200);
+}
+
+void loop() 
+{
+    //Print potentiometer values
+    Serial.println(potentiometer.read()); //values 0-4095 
+}
