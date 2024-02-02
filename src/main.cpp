@@ -8,7 +8,6 @@ void setup()
   Serial.begin(115200);  
 }
 
-  
 void loop()
 {
   Serial.println("I'm dying of boredom. This example is very simple :/");
